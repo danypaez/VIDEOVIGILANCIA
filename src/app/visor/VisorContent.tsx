@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState, useRef } from 'react';
 import AgoraRTC, { IAgoraRTCClient, IAgoraRTCRemoteUser } from "agora-rtc-sdk-ng";
-import './visor.css';
+import '../styles/visor.css';
 import { Eye, Radio, ShieldCheck, LogOut, Activity } from 'lucide-react';
 
 // --- CONFIGURACIÓN ---
